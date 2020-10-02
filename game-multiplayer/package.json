@@ -1,0 +1,28 @@
+{
+  "name": "game-multiplayer",
+  "version": "1.0.0",
+  "description": "Code-4-Fun of a multiplayer game in javascript",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watch --setupFiles dotenv/config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanNunes/code-4-fun.git"
+  },
+  "author": "Luan Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuanNunes/code-4-fun/issues"
+  },
+  "homepage": "https://github.com/LuanNunes/code-4-fun#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
